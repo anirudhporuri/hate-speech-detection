@@ -3,11 +3,12 @@
 ## Group Members: Anirudh Poruri, Rahul Nair, Shreya Shete, Varun Chilukuri
 
 ### Overview
-This repository contains all the code for our group's CMSC421 final project. For this project, we built a bi-directional long short-term memory RNN to detect offensive language and hate speech. There are three main components to this repository:
-1. The data pre-processing, model definition, and model training notebook (**HateSpeechModel.ipynb**) - tweets.csv is the dataset used
-2. The flask-server for the text classifier (**HateSpeechDetection** folder)
-3. The flask-server to analyze YouTube Comment Sections (**YoutubeCommentsAnalyzer** folder)
-4. Poster PDFs (slides and picture of poster) are available for viewing  in (**poster** folder)
+This repository contains all the code for our group's CMSC421 final project. For this project, we built a bi-directional long short-term memory RNN to detect offensive language and hate speech. There are five main components to this repository:
+1. The final report detailing the project (**CMSC421 Final Report.pdf**)
+2. The data pre-processing, model definition, and model training notebook (**HateSpeechModel.ipynb**) - tweets.csv is the dataset used
+3. The flask-server for the text classifier (**HateSpeechDetection** folder)
+4. The flask-server to analyze YouTube Comment Sections (**YoutubeCommentsAnalyzer** folder)
+5. The poster PDFs (slides and picture of poster) are available for viewing (**poster** folder)
 
 ### Running text classifier flask app
 1. `cd` into the `HateSpeechDetector` folder
