@@ -9,11 +9,11 @@ This repository contains all the code for our group's CMSC421 final project. For
 3. The flask-server to analyze YouTube Comment Sections (**YoutubeCommentsAnalyzer** folder)
 
 ### Running text classifier flask app
-1. `cd` into the `HateSpeechDetection` folder
+1. `cd` into the `HateSpeechDetector` folder
 2. `pip3 install -r requirements.txt` or `pip install -r requirements.txt`
 3. `python3 server.py` or `python server.py`
 
 ### Running YouTube comment section analyzer flask app
-1. `cd` into the `foldername` folder
+1. `cd` into the `YoutubeCommentsAnalyzer` folder
 2. `pip3 install -r requirements.txt` or `pip install -r requirements.txt`
-3. `python3 server.py` or `python server.py`
+3. `python3 analyzer_server.py` or `python analyzer_server.py`
