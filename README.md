@@ -7,6 +7,7 @@ This repository contains all the code for our group's CMSC421 final project. For
 1. The data pre-processing, model definition, and model training notebook (**HateSpeechModel.ipynb**) - tweets.csv is the dataset used
 2. The flask-server for the text classifier (**HateSpeechDetection** folder)
 3. The flask-server to analyze YouTube Comment Sections (**YoutubeCommentsAnalyzer** folder)
+4. Poster PDFs (slides and picture of poster) are available for viewing  in (**poster** folder)
 
 ### Running text classifier flask app
 1. `cd` into the `HateSpeechDetector` folder
@@ -17,3 +18,4 @@ This repository contains all the code for our group's CMSC421 final project. For
 1. `cd` into the `YoutubeCommentsAnalyzer` folder
 2. `pip3 install -r requirements.txt` or `pip install -r requirements.txt`
 3. `python3 analyzer_server.py` or `python analyzer_server.py`
+
